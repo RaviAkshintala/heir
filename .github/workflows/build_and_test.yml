@@ -12,8 +12,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   build-and-test:
-    runs-on:
-      labels: ubuntu-22.04-32core
+    runs-on:  ubuntu-22.04-32core
     steps:
       - name: Install dependencies
         run: |
